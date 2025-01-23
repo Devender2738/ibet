@@ -1,0 +1,106 @@
+.deposit-form,
+.withdraw-form{
+  background:#fff;
+  width:800px;
+  height: 1400px;
+  padding:20px;
+  margin:60px auto;
+  margin-top: 105px;
+  border-radius:10px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.6);
+}
+.deposit-header,
+.withdraw-header{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  border: 2px solid red;
+  border-radius: 30px;
+  background-color: rgb(212, 212, 212);
+  color: blue;
+  font-weight: bold;
+}
+.container-signin{
+  height: 500px;
+}
+.scanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qr-code{
+width: 350px;
+margin: 20px;
+}
+.upi{
+  font-size: 30px;
+  color: blue;
+  margin-bottom: 20px;
+}
+.scanner i{
+  background-color: rgb(2, 255, 2);
+  width: 180px;
+  height: 60px;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+form{
+  margin:0 2rem;
+}
+.form-title{
+  font-size:1.5rem;
+  font-weight:700;
+  text-align:center;
+  padding:1.3rem;
+  margin-bottom:1rem;
+}
+input{
+  flex:10;
+  color:inherit;
+  width:100%;
+  background-color:transparent;
+  border:none;
+  font-size:24px;
+  padding:0 0.6em;
+  border-left:solid 1px hsla(0, 0%, 0%, 0.4)
+}
+input:focus{
+  border-left:solid 1px hsla(240, 73%, 71%, 1);
+
+}
+.input-group{
+  padding:1% 0;
+  position:relative;
+  background-color:hsla(227, 63%, 18%, 0.07);
+  margin:1em auto;
+  border-radius:12px;
+  display:flex;
+  padding:0.7em 0.1em;
+}
+.input-group i{
+  padding: 10px;
+  font-size: 26px;
+}
+.submit-btn{
+  display: flex;
+}
+.btn{
+  background-color: rgb(121, 121, 121);
+  width: 160px;
+  height: 50px;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgba(0, 0, 255, 0.674);
+}

@@ -1,0 +1,73 @@
+.pro-settings{
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(255, 118, 118, 0.633);
+  margin: 10px;
+  margin-top: 110px;
+  border-radius: 30px;
+}
+.pro-header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26PX;
+  font-weight: bold;
+}
+.pro-hl{
+  background-color: rgba(55, 55, 55, 0.648);
+  height: 2px;
+  width: 100%;
+}
+.container-register,
+.container-signin{
+  background:#fff;
+  width:400px;
+  height: 650px;
+  padding:20px;
+  margin:60px auto;
+  margin-top: 105px;
+  border-radius:10px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.6);
+}
+.container-signin{
+  height: 500px;
+}
+form{
+  margin:0 2rem;
+}
+.form-title{
+  font-size:1.5rem;
+  font-weight:700;
+  text-align:center;
+  padding:1.3rem;
+  margin-bottom:0.4rem;
+}
+input{
+  flex:10;
+  color:inherit;
+  width:100%;
+  background-color:transparent;
+  border:none;
+  font-size:16px;
+  padding:0 0.4em;
+  border-left:solid 1px hsla(0, 0%, 0%, 0.4)
+}
+input:focus{
+  border-left:solid 1px hsla(240, 73%, 71%, 1);
+
+}
+.input-group{
+  padding:1% 0;
+  position:relative;
+  background-color:hsla(227, 80%, 16%, 0.07);
+  margin:1em auto;
+  border-radius:12px;
+  display:flex;
+  padding:0.8em 0.2em;
+
+}
+.input-group i{
+  padding: 10px;
+}

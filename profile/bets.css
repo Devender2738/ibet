@@ -1,0 +1,104 @@
+.pro-settings{
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(255, 118, 118, 0.633);
+  margin: 10px;
+  margin-top: 110px;
+  border-radius: 30px;
+}
+.pro-header{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26PX;
+  font-weight: bold;
+  background-color: rgb(91, 91, 255);
+  border-radius: 20px 20px 0 0;
+}
+.pro-hl{
+  background-color: rgba(0, 76, 255, 0.648);
+  height: 2px;
+  width: 100%;
+}
+.pro-body{
+  background-color: rgb(129, 129, 253);
+  width: 100%;
+  height:100%;
+}
+.bets-body{
+  width: 98%;
+  height: 100%;
+  margin-left: 10px;
+  background-color: gray;
+  border: 3px solid rgb(173, 173, 173);
+  border-radius: 20px;
+}
+.live-bets{
+  width: 100%;
+  height: 150px;
+  background-color: rgba(147, 255, 130, 0.677);
+  border-radius: 20px 20px 0 0;
+}
+.live-bets h3{
+  height: 50px;
+  color: white;
+  padding: 15px;
+  padding-left: 30px;
+  background-color: rgba(255, 0, 0, 0.644);
+  border-radius: 20px 20px 0 0;
+}
+.live-hl{
+  width: 100%;
+  height: 2px;
+  background-color: rgb(145, 145, 145);
+}
+.live-list{
+  display: flex;
+  flex-direction: column;
+}
+.list-odds{
+  background-color: rgba(255, 166, 0, 0.57);
+  height: 49px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.match-name{
+  width: 300px;
+  font-weight: bold;
+  color: rgb(1, 1, 158);
+  padding-left: 25px;
+}
+.bet-team{
+  width: 250px;
+  padding-left: 25px;
+  font-size: 18px;
+}
+.win-amount{
+  padding-left: 25px;
+  font-size: 18px;
+}
+.vl{
+  width: 1px;
+  height: 45px;
+  background-color: rgba(197, 196, 196, 0.523);
+}
+
+.bets-hl{
+  width: 100%;
+  height: 2px;
+  background-color: rgb(72, 72, 72);
+}
+.all-bets{
+  width: 100%;
+  height: 500px;
+}
+.all-bets h3{
+  height: 50px;
+  background-color: rgb(129, 255, 40);
+  color: white;
+  padding: 15px;
+  padding-left: 30px;
+}

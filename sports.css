@@ -1,0 +1,79 @@
+.match-live{
+  height: 110px;
+  margin: 0px 5px 0px 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.match-time{
+  color:rgb(255, 42, 0) ;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.team-names{
+  font-size: 22px;
+  color: blue;
+  display: flex;
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.live-img{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(11, 253, 11);
+}
+.match-odds{
+  margin: 5px;
+  margin-left: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.odd1,
+.odd2,
+.odd3{
+  width: 210px;
+  height: 80px;
+  background-color: rgba(255, 98, 0, 0.534);
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+}
+.team-1,
+.team-2{
+  width: 80px;
+  margin-left: 10px;
+}
+.team1-name,
+.team2-name{
+  font-size: 26px;
+  margin-left: 10px;
+  color: blue;
+  font-weight: bold;
+}
+.odd1-rate,
+.odd2-rate{
+  font-weight: bold;
+  font-size: 38px;
+  color: rgb(0, 60, 255);
+}
+.amount-1,
+.amount-2{
+  font-size: 16px;
+}
+.h-l{
+  height: 2px;
+  width: 98%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.345);
+}
